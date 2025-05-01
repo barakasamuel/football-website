@@ -72,7 +72,7 @@ If you would like to contribute to this project, feel free to fork the repositor
 # License
 This project is open-source and available under the MIT License.
 
-GitHub Repository
+# GitHub Repository
 You can find the source code and contribute to this project by visiting the GitHub repository:
 
 https://github.com/barakasamuel/epl-website
