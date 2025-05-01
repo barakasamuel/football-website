@@ -77,3 +77,4 @@ You can find the source code and contribute to this project by visiting the GitH
 
 https://github.com/barakasamuel/epl-website
 
+https://barakasamuel.github.io/football-website/
