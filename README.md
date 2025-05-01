@@ -49,7 +49,7 @@ JavaScript: Interactivity and functionality (form handling, match display, etc.)
 
 localStorage: Storing match data locally for persistence.
 
-How to Run the Project Locally
+# How to Run the Project Locally
 Clone the repository or download the project files.
 
 Open the index.html file in your web browser.
