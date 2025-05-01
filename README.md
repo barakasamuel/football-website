@@ -1,4 +1,4 @@
-English Premier League Website
+# English Premier League Website
 This is an interactive website for the English Premier League (EPL), where users can:
 
 View the current teams in the league.
