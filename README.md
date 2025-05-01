@@ -11,7 +11,7 @@ Watch the last season's winner.
 
 Add new match information to the EPL schedule.
 
-Features
+# Features
 1. Home Page
 Introduction to the English Premier League.
 
