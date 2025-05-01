@@ -36,7 +36,8 @@ Real-time updates on live scores of ongoing matches.
 
 Shows match status (e.g., "Live", "Match Played").
 
-5. Last Season Winner
+5. # Last Season Winner
+   
 Display the last season’s winner with a link to watch the trophy lift video.
 
 6. Add Match
