@@ -35,7 +35,7 @@ matchForm.addEventListener("submit", function (e) {
     // checks if all fields are perfect
     if (Object.values(newMatch).includes("")) return alert("Please fill out all fields.");
     addMatchToTable(newMatch);
-    // match is saved to localstorage
+    // a match can be saved to localstorage
     const matches = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
     matches.push(newMatch);
     localStorage.setItem(STORAGE_KEY, JSON.stringify(matches));
