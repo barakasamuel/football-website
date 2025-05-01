@@ -12,7 +12,8 @@ Watch the last season's winner.
 Add new match information to the EPL schedule.
 
 # Features
-1. #Home Page
+1. # Home Page
+2. 
 Introduction to the English Premier League.
 
 A welcoming hero section with a call to action (View EPL Fixtures).
