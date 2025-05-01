@@ -40,7 +40,8 @@ Shows match status (e.g., "Live", "Match Played").
    
 Display the last season’s winner with a link to watch the trophy lift video.
 
-6. Add Match
+6. # Add Match
+
 Form to add new matches to the schedule (team names, date, time, and stadium).
 
 Saves added matches using localStorage, so they persist even after refreshing the page.
