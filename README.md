@@ -41,9 +41,9 @@ Form to add new matches to the schedule (team names, date, time, and stadium).
 Saves added matches using localStorage, so they persist even after refreshing the page.
 
 # Technologies Used
-HTML5: Structure of the website.
+HTML: Structure of the website.
 
-CSS3: Styling for the layout and responsiveness.
+CSS: Styling for the layout and responsiveness.
 
 JavaScript: Interactivity and functionality (form handling, match display, etc.).
 
