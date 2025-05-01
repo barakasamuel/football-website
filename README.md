@@ -1,15 +1,15 @@
 # English Premier League Website.
 This is an interactive website for the English Premier League (EPL), where users can:
 
-View the current teams in the league.
+-View the current teams in the league.
 
-See live scores of ongoing matches.
+-See live scores of ongoing matches.
 
-Check fixtures for upcoming matches.
+-Check fixtures for upcoming matches.
 
-Watch the last season's winner.
+-Watch the last season's winner.
 
-Add new match information to the EPL schedule.
+-Add new match information to the EPL schedule.
 
 # Features
 1. ## Home Page
