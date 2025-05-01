@@ -13,12 +13,13 @@ Add new match information to the EPL schedule.
 
 # Features
 1. # Home Page
-2. 
+ 
 Introduction to the English Premier League.
 
 A welcoming hero section with a call to action (View EPL Fixtures).
 
-2. Teams
+2.# Teams
+
 Display all teams participating in the current EPL season.
 
 Each team card includes the team name, logo, and a related image.
