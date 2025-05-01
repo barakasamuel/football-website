@@ -66,7 +66,7 @@ Edit
 ├── script.js          # JavaScript functionality for dynamic content
 ├── images/            # Folder containing images (e.g., team logos, stadium images)
 └── README.md          # This file
-Contributing
+# Contributing
 If you would like to contribute to this project, feel free to fork the repository, create a new branch, and submit a pull request. Contributions, suggestions, and improvements are welcome.
 
 License
