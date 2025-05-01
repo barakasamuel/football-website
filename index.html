@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Website</title>
+    <link rel="stylesheet" href="./index.css">  
+</head>
+<body>
+    <header>
+        <section class="hero">
+            <div class="hero-content">
+            <h1>Welcome To The English Premier League</h1>
+              <h1>Home Of FootBall ...</h1>
+              <p>Follow your favorite teams, catch live matches, and stay updated in livescores!</p>
+              <a href="#" onclick="showPage('matches')" class="hero-btn">View EPL Fixtures</a>
+            </div>
+        </section>
+
+    <div class="logo">English Premier League  </div>
+    <nav id="navbar">
+        <ul>
+            <li><a href="javascript:void(0)" onclick="showPage( 'home')">Home</a></li>
+            <li><a href="javascript:void(0)" onclick="showPage( 'teams')">Teams</a></li>
+            <li><a href="javascript:void(0)" onclick="showPage('matches')">Matches</a></li>
+            <li><a href="javascript:void(0)" onclick="showPage('livescore')">Live scores</a></li>
+            <li><a href="javascript:void(0)" onclick="showPage('lastseasonwinner')">Last Season's Winner</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<section id="home" class="page" style="display: none;">
+    <h1>English Premier League </h1>
+    <img src="images/eplwallpaper.png" alt="epl">
+    <img src="images/epl trophy.jpeg" alt="trophy">
+    <p>The official Premier League Website provides information about matches,teams and livescores</p>
+</section>
+<section id="teams" class="page" style="display:none;">
+    <h1>EPL Teams This Season 2025/26</h1>
+    <div class="team-grid">
+        <div class="team-card">
+            <div class="team-gallery">
+                <img src="images/man u.png" alt="Man U">
+                <h2>1. Manchester United</h2>
+                <img src="images/oldtraford.jpeg" alt="old">
+    <h2>Old Traford</h2>
+    </div>
+</div>
+    <div class="team-card">
+        <div class="team-gallery">
+<img src="images/chelsea.png" alt="The Blues">
+    <h2>2.Chelsea</h2>
+        </div>
+        </div>
+        <div class="team-card">
+            <div class="team-gallery">
+<img src="images/arsenal.png" alt="The Gunners">
+    <h2>3.Arsenal</h2>
+    </div>
+    </div>
+    <div class="team-card">
+        <div class="team-gallery">
+            <img src="images/liverpool.png" alt="The Reds">
+    <h2>4.Liverpool</h2>
+    </div>
+    </div>
+    <div class="team-card">
+        <div class="team-gallery">
+            <img src="images/man city.png" alt="man city">
+            <h2>5.Manchester City</h2>
+        </div>
+    </div>
+    <div class="team-card">
+        <div class="team-gallery">
+            <img src="images/Attoti.png" alt="tottenham">
+            <h2>6.Tottenham Hotspur FC</h2>
+        </div>
+    </div>
+    <div class="team-card">
+        <div class="team-gallery">
+            <img src="images/newcastle.png" alt="newcastle">
+            <h2>7.Newcastle United</h2>
+        </div>
+    </div>
+    <div class="team-card">
+        <div class="team-gallery">
+            <img src="images/nforest.png" alt="nottingham forest">
+            <h2>8.Nottingham Forest FC</h2>
+        </div>
+    </div>
+    <div class="team-card">
+        <div class="team-gallery">
+            <img src="images/bournemouth.jpeg" alt="bournemouth">
+            <h2>9.Bournemouth FC</h2>
+        </div>
+    </div>
+    <div class="team-card">
+        <div class="team-gallery">
+            <img src="images/Aston Villa.png" alt="aston villa">
+            <h2>10.Aston Villa FC</h2>
+        </div>
+    </div>
+    <div class="team-card">
+        <div class="team-gallery">
+            <img src="images/cpalace.png" alt="crystal palace">
+            <h2>11.Crystal Palace FC</h2>
+        </div>
+    </div>
+    <div class="team-card">
+        <div class="team-gallery">
+            <img src="images/eton.jpeg" alt="everton">
+            <h2>12.Everton FC</h2>
+        </div>
+    </div>
+    <div class="team-card">
+        <div class="team-gallery">
+            <img src="images/leister.png" alt="leicester">
+            <h2>13.Leicester City FC</h2>
+        </div>
+    </div>
+    <div class="team-card">
+        <div class="team-gallery">
+            <img src="images/bton.png" alt="brighton">
+            <h2>14.Brighton & Hove Albion</h2>
+        </div>
+    </div>
+    <div class="team-card">
+        <div class="team-gallery">
+            <img src="images/fham.png" alt="fulham">
+            <h2>15.Fulham FC</h2>
+        </div>
+    </div>
+</section>
+<section id="matches" class="page" style="display:none;">
+    <h1> Fixtures Form/Table</h1>
+    <form id="matchForm">
+        <input type="text" id="team1" placeholder="Team 1" required />
+        <input type="text" id="team2" placeholder="Team 2" required />
+        <input type="date" id="matchDate" required />
+        <input type="time" id="matchTime" required />
+        <input type="text" id="stadium" placeholder="Stadium" required />
+        <button type="submit">Add Match</button>
+    </form>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Match</th>
+                    <th>Time</th>
+                    <th>Stadium</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="matchesList">
+                
+            </tbody>
+        </table>
+    </div>
+</section>
+</section>
+<section id="livescore" class="page" style="display:none;">
+    <h1>Livescores</h1>
+    <div class="Score-container" id="matchList">
+<div class="live-score" id="match1">
+    <h2>Manchester United vs Chelsea</h2>
+    <p>Score:<span class="score">4 - 1</span></p>
+    <p>Status:<span class="status">Live</span></p>
+</div>
+<div class="live-score" id="match2">
+    <h2>Liverpool vs Arsenal</h2>
+    <p>Score:<span class="score">2 - 2</span></p>
+    <p>Status:<span class="status">Match Played</span></p>
+
+</div>
+<div class="live-score" id="match3">
+    <h2>Manchester United vs Liverpool</h2>
+    <p>Score:<span class="score">2 - 1</span></p>
+    <p>Status:<span class="status">Live</span></p>
+
+</div>
+<div class="live-score" id="match4">
+    <h2>Arsenal Vs Chelsea</h2>
+    <p>Score:<span class="score">4 - 3</span></p>
+    <p>Status:<span class="status">Match Played</span></p>
+    </div>
+    </div>
+        <button id="refreshLivescore">Refresh Live Score</button>
+    </section>
+</div>
+</div>
+</section>
+<section id="lastseasonwinner" class="page">
+    <h2>Last Season's Winner 2024/25</h2>
+<a href="https://en.as.com/videos/anfield-in-tears-liverpool-lift-premier-league-trophy-as-youll-never-walk-alone-echoes-v/" class="styled-link">Watch Liverpool lift up the Premier League Trophy at Anfield</a>
+<img src="images/liverpool.png" alt="The Reds">
+</section>
+<script>
+    function showPage(pageId) {
+        const pages = document.querySelectorAll('.page')
+        pages.forEach(page => page.style.display = 'none');
+
+        document.getElementById(pageId).style.display = 'block';
+        
+    }
+    window.onload = () => showPage('home');
+</script>
+<script src="./script.js"></script>
+</body>
+<footer>
+   © copyright 2025 EPL. Devised by Baraka Samuel
+</footer>
+</html>
