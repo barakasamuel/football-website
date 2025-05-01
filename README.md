@@ -69,7 +69,7 @@ Edit
 # Contributing
 If you would like to contribute to this project, feel free to fork the repository, create a new branch, and submit a pull request. Contributions, suggestions, and improvements are welcome.
 
-License
+# License
 This project is open-source and available under the MIT License.
 
 GitHub Repository
