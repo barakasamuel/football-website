@@ -62,16 +62,18 @@ Open the index.html file in your web browser.
 
 The website should load, and you can navigate between sections such as Home, Teams, Matches, etc.
 
-Directory Structure
+# Directory Structure
+
 bash
 Copy
 Edit
+
 /football-website
-├── index.html         # Main HTML file
-├── style.css          # Styles for the website
-├── script.js          # JavaScript functionality for dynamic content
-├── images/            # Folder containing images (e.g., team logos, stadium images)
-└── README.md          # This file
+ index.html         # Main HTML file
+ style.css          # Styles for the website
+ script.js          # JavaScript functionality for dynamic content
+ images/            # Folder containing images (e.g., team logos, stadium images)
+ README.md          # This file
 # Contributing
 If you would like to contribute to this project, feel free to fork the repository, create a new branch, and submit a pull request. Contributions, suggestions, and improvements are welcome.
 
