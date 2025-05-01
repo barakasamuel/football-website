@@ -18,13 +18,14 @@ Introduction to the English Premier League.
 
 A welcoming hero section with a call to action (View EPL Fixtures).
 
-2.# Teams
+2. # Teams
 
 Display all teams participating in the current EPL season.
 
 Each team card includes the team name, logo, and a related image.
 
-3. Matches
+3. # Matches
+   
 View upcoming fixtures of EPL matches.
 
 Includes match date, time, and stadium.
