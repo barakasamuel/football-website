@@ -1,4 +1,4 @@
-## English Premier League Website.
+# English Premier League Website.
 This is an interactive website for the English Premier League (EPL), where users can:
 
 View the current teams in the league.
@@ -12,35 +12,35 @@ Watch the last season's winner.
 Add new match information to the EPL schedule.
 
 # Features
-1. # Home Page
+1. ## Home Page
  
 Introduction to the English Premier League.
 
 A welcoming hero section with a call to action (View EPL Fixtures).
 
-2. # Teams
+2. ## Teams
 
 Display all teams participating in the current EPL season.
 
 Each team card includes the team name, logo, and a related image.
 
-3. # Matches
+3. ## Matches
    
 View upcoming fixtures of EPL matches.
 
 Includes match date, time, and stadium.
 
-4. # Live Scores
+4. ## Live Scores
    
 Real-time updates on live scores of ongoing matches.
 
 Shows match status (e.g., "Live", "Match Played").
 
-5. # Last Season Winner
+5. ## Last Season Winner
    
 Display the last season’s winner with a link to watch the trophy lift video.
 
-6. # Add Match
+6. ## Add Match
 
 Form to add new matches to the schedule (team names, date, time, and stadium).
 
